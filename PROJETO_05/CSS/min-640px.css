@@ -1,0 +1,28 @@
+@media(min-width: 640px) {
+    body {
+        padding: 25px 250px 0 250px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+        width: 960px;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 25px 0 25px 0;
+    }
+
+    .linha {
+        display: flex;
+    }
+
+    .card {
+        width: 300px;
+        padding: 0 20px 48px 0;
+        text-transform: uppercase;
+    }
+}

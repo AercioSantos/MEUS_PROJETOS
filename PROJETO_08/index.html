@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta projeto 09</title>
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Fonts/stylesheet.css">
+    <link rel="stylesheet" href="Css/estilo.css">
+
+</head>
+<body>
+
+    <div class="checkout">
+
+        <header>
+            <div>
+                <h1>Checkout</h1>
+                <span>Shipping > <strong>Payment Method</strong> > Confirmation</span>
+            </div>
+            <a href="#"><span>Fechar</span></a>
+        </header>
+
+        <main>
+
+            <div class="cartao">
+
+                <div class="wallet">
+                    <h2>Wallet</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="Imagens/visa card.png">
+                                <small>Ending in 1234</small>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="Imagens/Mastercard card.png">
+                                <small>Ending in 2222</small>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="Imagens/discover card.png">
+                                <small>Ending in 1111</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="newCard">
+                    <form action="">
+                        <fieldset>
+
+                            <legend>New Card</legend>
+
+                            <input type="text" placeholder="Name on card">
+                            <input type="text" placeholder="1111-1111-1111-1112">
+                            <input type="text" class="data" placeholder="MM/YY">
+                            <input type="text" class="CVC"  placeholder="cvc">
+
+                            
+                            <label for="addwallet">
+                                <input type="checkbox" name="addwallet">
+                                <p>Add card to wallet</p> 
+                            </label>
+
+                            <button>Continue</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="resumos">
+                <ul class="produtos">
+                    <li>
+                        <img src="Imagens/bota.png">
+                        <div class="detalhes">
+                            <h3>The Chelsea Boot</h3>
+                            <small>Black</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$235</span>
+                    </li>
+
+                    <li>
+                        <img src="Imagens/mochila.png">
+                        <div class="detalhes">
+                            <h3>The Twill Snap Backpack</h3>
+                            <small>Reverse Denim + Brown leather</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$65</span>
+                    </li>
+
+                    <li>
+                        <img src="Imagens/bolsa.png">
+                        <div class="detalhes">
+                            <h3>The Twill Zip Tote</h3>
+                            <small>Reverse Denim + Black leather</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$48</span>
+                    </li>
+
+                    <li>
+                        <img src="Imagens/cachecol.png">
+                        <div class="detalhes">
+                            <h3>The Chunky Wool Scarf
+                            </h3>
+                            <small>Black</small>
+                            <span>Quantity: 1</span>
+                        </div>
+                        <span class="preco">$50</span>
+                    </li>
+                </ul>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Subtotal</th>
+                            <td>$398</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Shipping</th>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Taxes</th>
+                            <td>12.12</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Total</th>
+                            <td>$410.12</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>

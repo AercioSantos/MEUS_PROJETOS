@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    background-color: #242536;
+    color: #ffffff;
+}
+
+header p {
+    size: 14px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-top: 10px;
+    background-color: #3ACA60;
+    border-radius: 50px 50px;
+    padding: 10px 8px 10px 8px;
+    display: table;
+}
+
+section {
+    height: 950px;
+    display: flex;
+}
+
+aside {
+    display: block;
+    background-color: #242536;
+    width: 200px;
+    height: 950px;
+}
+
+aside a {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+aside a:hover {
+    background-color: #151524;
+    /*border-left: 3px solid #FFB946;*/
+    box-shadow: inset 3px 0 0 #FFB946;
+}
+
+aside a div {
+    width: 40px;
+    align-items: center;
+}
+
+aside a img {
+    float: right;
+    padding-right: 15px;
+}
+
+aside a p {
+    width: 100%;
+}
+
+aside a p span {
+    float: right;
+    margin-right: 15px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+
+
+
+section #area_trabalho {
+    background-color: #F2F2F2;
+    height: 950px;
+    width: 1166px;
+}
+
+section #area_trabalho #cabecalho {
+    display: flex;
+    background-color: #ffffff;
+    height: 60px;
+}
+
+section #area_trabalho div {
+    padding-left: 45px;
+}
+
+section #area_trabalho div a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #161616;
+    margin-top: 25px;
+    text-decoration: none;
+    margin-right: 43px;
+}
+
+section #area_trabalho div a:hover {
+    color: #FFB946;
+    border-bottom: 3px solid #FFB946;
+}
+
+section #conteudo {
+    margin: 20px;
+    height: 810px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+}
+
+form h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form p {
+    margin-top: 5px;
+    margin-bottom: 26px;
+    width: 400px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+form h2.text_2 {
+    margin-top: 58px;
+    margin-bottom: 10px;
+}
+
+form input {
+    display: block;
+}
+
+section #conteudo .obrigatorio {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+input, select {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    font-weight: 400;
+    width: 400px;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+select {
+    width: 418px;
+}
+
+section #conteudo .obrigatorio input[type=tel] {
+    margin-top: 0px;
+}
+
+section #conteudo .obrigatorio h3.h3 {
+    padding-bottom: 18px;
+}
+
+
+#conteudo .obrigatorio h3 {
+    margin-top: 15px;
+    margin-left: 12px;
+    background-image: url('/IMAGENS/ok.png');
+    background-repeat: no-repeat;
+    width: 18px;
+}
+
+#conteudo .obrigatorio h3 span {
+    visibility: hidden;
+}
+
+section #conteudo .check {
+    display: flex;
+    padding: 0;
+}
+
+.check input {
+    width: 15px;
+    margin-left: 0;
+}
+
+.check p {
+    margin-left: 11px;
+}
+
+form button {
+    margin-top: 41px;
+    width: 400px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #3ACA60;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

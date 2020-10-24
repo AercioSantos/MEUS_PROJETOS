@@ -1,0 +1,148 @@
+.cartao {
+    height: 100px;
+    width: 55%;
+}
+
+.cartao .wallet h2 {
+    color: #777879;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.cartao .wallet ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.cartao .wallet li {
+    list-style: none;
+    padding: 10px;
+    margin: 6px;
+    text-align: center;
+}
+
+.cartao .wallet li:hover {
+    background-color: #f5f9fd;
+    box-shadow: inset 0 0 2px #d1e3f5;
+    border-radius: 4px;
+}
+
+.cartao .wallet small {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cartao .wallet a {
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+
+
+.cartao .newCard fieldset {
+    border: none;
+    text-align: center;
+}
+
+.cartao .newCard legend {
+    font-size: 16px;
+    color: #777879;
+    font-weight: 700;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.cartao .newCard input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+
+.cartao .newCard input.data {
+    width: 149px;
+    margin-right: 10px;
+}
+
+.cartao .newCard input.CVC {
+    width: 86px;
+}
+
+.cartao ::-webkit-input-placeholder {
+    /*Chrome*/
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cartao :-moz-placeholder {
+    /* Firefox 18- */
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cartao ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cartao :-ms-input-placeholder {
+    /*Navegadores modernos*/
+    color: #c4cbd0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.cartao .newCard button {
+    width: 289px;
+    padding: 15px;
+    background-color: #84d654;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.cartao .newCard label input {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+
+.cartao .newCard label {
+    display: flex;
+    margin-left: 35px;
+    color: #777879;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+.cartao .newCard label p {
+    margin-top: 18px;
+}
+
+
+
+
+
+

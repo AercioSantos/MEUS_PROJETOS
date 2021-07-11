@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 10</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="emptyList">
+
+    <div class="topBar">
+
+        <div class="inputItem">
+            <div class="itemName">
+                <input type="text">
+                <button class="save">
+                    <img src="images/save.png">
+                </button>
+            </div>
+
+            <div class="minimumStock hiddem">
+                <label>Estoque Mínimo</label>
+                <span class="qtMin">1</span>
+                <span class="estoqueBtn">
+                    <button><img src="images/menos.png"></button>
+                    <button><img src="images/mais.png"></button>
+                </span>
+            </div>
+        </div>
+
+        <div class="updateLis hiddem">
+            <button class="cancel">
+                <img src="images/cancelar.png">
+            </button>
+            <button class="save">
+                <label>Salve suas alterações</label>
+                <img src="images/save.png">
+            </button>
+        </div>
+
+    </div>
+
+    <ul id="GroceryList" style="background-color: red; z-index: 1000;">
+        <li>
+            <div class="item">
+                <div class="descricao">
+                    <label>Tomate <sup>Min 3</sup></label>
+                    <span>6</span>
+                </div>
+                <div class="acao">
+                    <button class="delete"><img src="images/delete.png"></button>
+                    <button class="menor"><img src="images/menos.png"></button>
+                    <button class="maior"><img src="images/mais.png"></button>
+                </div>
+            </div>
+        </li>
+
+        <li></li>
+
+        <li></li>
+    </ul>
+
+
+    <script src="javascripts/utils.js"></script>
+    <script src="javascripts/GroceryInputItem.js"></script>
+    <script src="javascripts/GroceryUpdateList.js"></script>
+    <script src="javascripts/GroceryItem.js"></script>
+    <script src="javascripts/GroceryList.js"></script>
+    <script src="javascripts/app.js"></script>
+
+    
+</body>
+</html>

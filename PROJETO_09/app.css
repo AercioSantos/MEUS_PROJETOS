@@ -1,0 +1,133 @@
+* { padding: 0; margin: 0;}
+
+body.emptyList {
+    background-color: #ecf0f1;
+    background-image: url("images/empty-list.png");
+    background-repeat: no-repeat;
+    background-position: center 200px;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+li {
+    list-style: none;
+}
+
+.hiddem {
+    display: none !important;
+}
+
+.topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inputItem .itemName {
+    height: 72px;
+    display: flex;
+}
+
+.inputItem .itemName input {
+    width: calc(100% - 80px);
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 5%;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+
+.inputItem .itemName button.save {
+    width: 80px;
+    border: solid 1px #3498db;
+    background-color: #3498db;
+}
+
+.inputItem .minimumStock {
+    background-color: #34495E;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.inputItem .minimumStock label {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    color: #ffffff;
+    width: 61px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 5%;
+}
+
+.inputItem .minimumStock span.qtMin {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 400; 
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.inputItem .minimumStock .estoqueBtn {
+    margin-left: 30px;
+}
+
+.inputItem .minimumStock button {
+    float: right;
+    background-color: #34495E;
+    border: none;
+    padding-left: 50px;
+}
+
+.updateLis {
+    display: flex;
+}
+
+.updateLis button.cancel{
+    background-color: #34495E;
+    height: 72px;
+    width: 80px;
+    border: none;
+}
+
+.updateLis button.save {
+    background-color: #3498DB;
+    width: calc(100% - 80px);
+    align-items: center;
+    border: none;
+}
+
+.updateLis button.save label {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    width: 75px;
+    margin-right: 10px;
+}
+
+#GroceryList {
+    margin-top: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

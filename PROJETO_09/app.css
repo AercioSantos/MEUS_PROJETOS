@@ -114,9 +114,52 @@ li {
 }
 
 #GroceryList {
-    margin-top: 72px;
+    margin-top: 72px;    
 }
 
+#GroceryList li .item {
+    background-color: blue;
+}
+
+#GroceryList li .item .descricao {
+    background-color: #ecf0f1;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: 'Lato' sans-serif;
+    font-weight: 600;
+    color: #4A4A4A;
+    padding-left: 5%;
+}
+
+#GroceryList li .item .descricao label sup {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#GroceryList li .item .descricao span {
+    margin-right: 5%;
+}
+
+#GroceryList li .item .acao {
+    height: 72px;
+    background-color: #34495E;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+#GroceryList li .item .acao button {
+    width: 35px;
+    height: 35px;
+    background-color: #34495E;
+    border: none;
+    align-items: center;
+}
 
 
 

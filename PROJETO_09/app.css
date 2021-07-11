@@ -117,17 +117,13 @@ li {
     margin-top: 72px;    
 }
 
-#GroceryList li .item {
-    background-color: blue;
-}
-
 #GroceryList li .item .descricao {
     background-color: #ecf0f1;
     height: 72px;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Lato' sans-serif;
     font-weight: 600;
     color: #4A4A4A;
@@ -136,7 +132,7 @@ li {
 
 #GroceryList li .item .descricao label sup {
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -159,6 +155,11 @@ li {
     background-color: #34495E;
     border: none;
     align-items: center;
+}
+
+#GroceryList li .item .comprando {
+    background-color: #EF3E3E;
+    color: #ffffff;
 }
 
 

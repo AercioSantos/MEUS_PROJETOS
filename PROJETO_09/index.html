@@ -10,6 +10,20 @@
 </head>
 <body class="emptyList">
 
+    <template id="templateId"> <!-- Templete -->
+        <div class="item">
+            <div class="descricao {{cssClass}}">
+                <label>{{name}} <sup>Min {{minimumStock}}</sup></label>
+                <span class="amountStock">{{amountStock}}</span>
+            </div>
+            <div class="acao hidden">
+                <button class="delete"><img src="images/delete.png"></button>
+                <button class="menor"><img src="images/menos.png"></button>
+                <button class="maior"><img src="images/mais.png"></button>
+            </div>
+        </div>
+    </template>
+
     <div class="topBar">
 
         <div class="inputItem">
@@ -42,23 +56,14 @@
 
     </div>
 
-    <ul id="GroceryList" class="hidden">
-        <li>
-            <div class="item">
-                <div class="descricao comprando">
-                    <label>Tomate <sup>Min 3</sup></label>
-                    <span>8</span>
-                </div>
-                <div class="acao">
-                    <button class="delete"><img src="images/delete.png"></button>
-                    <button class="menor"><img src="images/menos.png"></button>
-                    <button class="maior"><img src="images/mais.png"></button>
-                </div>
-            </div>
+    <ul id="GroceryList">
+        <li class="li1">
+        </li>
+        <li class="li2">
         </li>
 
-        <li>
-            <div class="item">
+        <!-- <li>
+            <div class="item hidden">
                 <div class="descricao">
                     <label>Ovos <sup>Min 3</sup></label>
                     <span>6</span>
@@ -72,7 +77,7 @@
         </li>
 
         <li>
-            <div class="item">
+            <div class="item hidden">
                 <div class="descricao">
                     <label>Cerveja <sup>Min 3</sup></label>
                     <span>6</span>
@@ -83,7 +88,7 @@
                     <button class="maior"><img src="images/mais.png"></button>
                 </div>
             </div>
-        </li>
+        </li> -->
     </ul>
 
 

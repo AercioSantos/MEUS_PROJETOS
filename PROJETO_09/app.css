@@ -120,7 +120,7 @@ li {
 }
 
 #GroceryList li .item .descricao {
-    background-color: #ecf0f1;
+    background-color: #D8DFE1;
     height: 72px;
     align-items: center;
     display: flex;
@@ -130,6 +130,7 @@ li {
     font-weight: 600;
     color: #4A4A4A;
     padding-left: 5%;
+    border-bottom: solid 1px rgba(74, 74, 74, 0.5);
 }
 
 #GroceryList li .item .descricao label sup {
@@ -162,6 +163,7 @@ li {
 #GroceryList li .item .comprando {
     background-color: #EF3E3E;
     color: #ffffff;
+    border-bottom: solid 1px #fff;
 }
 
 
